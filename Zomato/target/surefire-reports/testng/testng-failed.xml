@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [testng]">
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="com.zomato.qa.TestCase.LandingPageTest">
+        <methods>
+          <include name="clickKFCandVerifyPage"/>
+          <include name="searchBoxTest"/>
+          <include name="verifyZomatoLogo"/>
+          <include name="setUp"/>
+          <include name="searchTextTestAndVerifySame"/>
+          <include name="tearDown"/>
+          <include name="landingPageTitleTest"/>
+        </methods>
+      </class> <!-- com.zomato.qa.TestCase.LandingPageTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [testng] -->
